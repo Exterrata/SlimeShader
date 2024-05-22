@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Slime
+  m_Shader: {fileID: 4800000, guid: d8208bc4f7dcdd545a146365afae579f, type: 3}
+  m_ValidKeywords:
+  - _BLENDDST_ONEMINUSSRCALPHA
+  - _BLENDSRC_SRCALPHA
+  - _ENABLE_BLUR_ON
+  - _ENABLE_MATCAP_ON
+  - _ENABLE_NORMAL1_ON
+  - _ENABLE_NORMAL2_ON
+  - _ENABLE_REFLECTION_ON
+  - _ENABLE_RIMLIGHT_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap0:
+        m_Texture: {fileID: 2800000, guid: 561d501ad6f43164bbc9a11aed39d1db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.2, y: 0.1}
+    - _BumpMap1:
+        m_Texture: {fileID: 2800000, guid: 9caa7ff42cfffcb4fba834049e8c6cc1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.2, y: 0.1}
+    - _BumpMap2:
+        m_Texture: {fileID: 2800000, guid: 9caa7ff42cfffcb4fba834049e8c6cc1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: -0.1, y: -0.2}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LCHMask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LCHMask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: 4f6d06725a561cc42b5c68d953d92d2a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap1:
+        m_Texture: {fileID: 2800000, guid: 4f6d06725a561cc42b5c68d953d92d2a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SlimeMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SlimeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendDst: 6
+    - _BlendSrc: 7
+    - _Bulge: 0.05
+    - _BulgeDist: 0.05
+    - _BumpPow: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Enable_Blur: 1
+    - _Enable_Bulge: 0
+    - _Enable_Emission: 0
+    - _Enable_Height: 0
+    - _Enable_LCH1: 0
+    - _Enable_LCH2: 0
+    - _Enable_MatCap: 1
+    - _Enable_Normal1: 1
+    - _Enable_Normal2: 1
+    - _Enable_Reflection: 1
+    - _Enable_RimLight: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HeightPow: 0.1
+    - _HeightScale: 1
+    - _Index: 1.33
+    - _Invert_LCH1: 0
+    - _Invert_LCH2: 0
+    - _MatCapBlur1: 0
+    - _MatCapBlur2: 0
+    - _MaxLighting: 1
+    - _Metallic: 0
+    - _MinLighting: 0
+    - _Mode: 0
+    - _Monochrome: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Reflectivity: 0.3
+    - _RimPow: 3
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LCH1: {r: 1, g: 1, b: 0, a: 0}
+    - _LCH2: {r: 1, g: 1, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MatCapCol1: {r: 1, g: 1, b: 1, a: 1}
+    - _MatCapCol2: {r: 1, g: 1, b: 1, a: 1}
+    - _SlimeColor: {r: 0.042586334, g: 0.5644464, b: 0.8207547, a: 0.5019608}
+  m_BuildTextureStacks: []
