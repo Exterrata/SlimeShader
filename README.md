@@ -1,3 +1,17 @@
+# Notice: Big update coming at some point
+### New stuff coming:
+- All of the shader code has been refactored to be more modular for other changes below
+- Custom inspector gui with foldouts to categorize settings
+- Custom shader optimizer so the shader will only have the features it needs
+- Better lighting
+- Support for features like UDIMDiscard and DPS
+
+### Update Preview:
+<img src="https://github.com/user-attachments/assets/bc1b095a-24d7-4fbf-ae47-6ab7cf7c1fb0" width="500">
+
+More work is still needing to be done till its polished enough for full release.
+
+
 # Unity Slime Shader
 a slime shader built for use in VRChat and ChilloutVR
 
